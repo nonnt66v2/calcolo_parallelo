@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/hello_world/cmake-build-debug"
+			"value" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/calcolo_parallelo/hello_world/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/hello_world/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/calcolo_parallelo/hello_world/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/hello_world"
+			"value" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/calcolo_parallelo/hello_world"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/hello_world/cmake-build-debug"
+			"value" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/calcolo_parallelo/hello_world/cmake-build-debug"
 		},
 		{
 			"name" : "hello_world_IS_TOP_LEVEL",
@@ -1187,7 +1187,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/hello_world"
+			"value" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/calcolo_parallelo/hello_world"
 		}
 	],
 	"kind" : "cache",
