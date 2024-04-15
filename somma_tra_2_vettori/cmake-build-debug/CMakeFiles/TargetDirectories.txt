@@ -1,3 +1,0 @@
-/home/nonnt66/Scaricati/uni/calcolo_parallelo/calcolo_parallelo/somma_tra_2_vettori/cmake-build-debug/CMakeFiles/somma_tra_2_vettori.dir
-/home/nonnt66/Scaricati/uni/calcolo_parallelo/calcolo_parallelo/somma_tra_2_vettori/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/nonnt66/Scaricati/uni/calcolo_parallelo/calcolo_parallelo/somma_tra_2_vettori/cmake-build-debug/CMakeFiles/rebuild_cache.dir
