@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/simulazione_esame.dir/prodotto_scalare.c.o -o simulazione_esame 
