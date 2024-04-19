@@ -1,0 +1,18 @@
+7 metriche
+
+1)il programma deve compilare
+
+
+2-3)input = N dim problema, P core utilizzati
+
+4)run
+
+5) risultato 1
+
+6) risultato 2
+
+7) tempi di esecuzione (i quali devono variare al cambiare el numero di processori o alla dimensione del problema)
+
+
+prova formata da 2 operazioni (una la conseguenza dell'altra)
+
