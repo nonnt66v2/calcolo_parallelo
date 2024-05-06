@@ -9,7 +9,7 @@
 #include "limits.h"
 
 int main() {
-    int i, N = pow(12,10);
+    int i, N = pow(12,8);
 
     float *a, *b, result = 0;
     double t0, t1;
