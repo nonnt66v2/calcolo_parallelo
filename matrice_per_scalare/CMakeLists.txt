@@ -3,5 +3,5 @@ project(matrice_per_scalare)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(matrice_per_scalare main.cpp
+add_executable(matrice_per_scalare
         main.c)
