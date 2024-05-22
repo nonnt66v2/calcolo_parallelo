@@ -10,7 +10,10 @@
 #include "malloc.h"
 
 #define N 8
-
+double **allocaMat(){
+    double **mat = (double **)malloc(N*sizeof(double*));
+    return mat;
+}
 //
 double *matxvet(int m, int n, double *x, double **matPar) {
     int i, j;
@@ -28,8 +31,7 @@ double *matxvet(int m, int n, double *x, double **matPar) {
 }
 
 int main() {
-    double **mat = (double **) malloc(N * sizeof(double *));
-
+    double **mat = allocaMat();
     double *vet = (double *) malloc(N * sizeof(double));
     double t0, t1;
     for (int i = 0; i < N; ++i) {
@@ -42,8 +44,7 @@ int main() {
         vet[i] = 1;
     }
     t0 = omp_get_wtime();
-    double *vetFinale = (double *) malloc(N * sizeof(double));
-    vetFinale = matxvet(N, N, vet, *(&mat));
+    double *vetFinale = matxvet(N, N, vet, *(&mat));
     t1 = omp_get_wtime();
     printf("il tempo di esecuzione è %.16lf\n", t1 - t0);
     for (int i = 0; i < N; ++i) {
