@@ -1,0 +1,3 @@
+/home/nonnt66/Scaricati/uni/calcolo_parallelo/prova_esame/cmake-build-debug/CMakeFiles/prova_esame.dir
+/home/nonnt66/Scaricati/uni/calcolo_parallelo/prova_esame/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nonnt66/Scaricati/uni/calcolo_parallelo/prova_esame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
