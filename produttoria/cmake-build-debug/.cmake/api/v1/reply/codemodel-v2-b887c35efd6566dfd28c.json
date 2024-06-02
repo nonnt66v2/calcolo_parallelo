@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/calcolo_parallelo/produttoria/cmake-build-debug",
-		"source" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/calcolo_parallelo/produttoria"
+		"build" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/produttoria/cmake-build-debug",
+		"source" : "/home/nonnt66/Scaricati/uni/calcolo_parallelo/produttoria"
 	},
 	"version" : 
 	{
