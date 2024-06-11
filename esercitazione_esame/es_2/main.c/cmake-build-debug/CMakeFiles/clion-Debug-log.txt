@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /home/nonnt66/Scaricati/uni/calcolo_parallelo/esercitazione_esame/es_2/main.c Select CMakeLists.txt
