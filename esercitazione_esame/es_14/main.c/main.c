@@ -19,8 +19,9 @@ int main(int argc, char **argv) {
     int M = atoi(argv[1]);
     int np = atoi(argv[2]);
     int blockSize = M / np;
+    printf("block size [%d]", blockSize);
     int **mat = (int **) calloc(M, sizeof(int *));
-    int **somma = (int **) calloc(np, sizeof(int *));
+    int **somma = (int **) calloc(M, sizeof(int *));
     for (int i = 0; i < M; i++) {
         mat[i] = (int *) calloc(M, sizeof(int));
         for (int j = 0; j < M; j++) {
@@ -28,7 +29,7 @@ int main(int argc, char **argv) {
         }
     }
     for (int i = 0; i < np; i++) {
-        somma[i] = (int *) calloc(np, sizeof(int));
+        somma[i] = (int *) calloc(M, sizeof(int));
         for (int j = 0; j < np; j++) {
             somma[i][j] = 0;
         }
@@ -41,7 +42,8 @@ int main(int argc, char **argv) {
         for (j = 0; j < M; j += blockSize) {
             for (k = i; k < i + blockSize; k++) {
                 for (l = j; l < j + blockSize; l++) {
-                    somma[i / np][j / np] += mat[k][l];
+                    #pragma omp atomic
+                    somma[i/np][j/np] += mat[k][l];
                 }
             }
         }
