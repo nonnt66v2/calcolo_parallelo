@@ -1,0 +1,3 @@
+/home/nonnt66/Scaricati/uni/calcolo_parallelo/esercitazione_esame/mattia/cmake-build-debug/CMakeFiles/mattia.dir
+/home/nonnt66/Scaricati/uni/calcolo_parallelo/esercitazione_esame/mattia/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nonnt66/Scaricati/uni/calcolo_parallelo/esercitazione_esame/mattia/cmake-build-debug/CMakeFiles/rebuild_cache.dir
